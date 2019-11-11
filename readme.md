@@ -69,6 +69,17 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Installation Instructions
+use the terminal and run the following commands
+1. git clone https://github.com/DavidWaichari/schoice.git
+2. cd schoice
+3. cp .en.example .env ( and adjust the database credentials)
+4. composer install
+5. php artisan migrate --seed
+6. php artisan passport:install
+
+You can now login using username: admin@devtest.com and password:secret and access the admin dashboard
+
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
