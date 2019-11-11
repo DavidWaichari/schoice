@@ -77,6 +77,8 @@ use the terminal and run the following commands
 4. composer install
 5. php artisan migrate --seed
 6. php artisan passport:install
+7. npm install && npm run dev
+8. php artisan serve
 
 You can now login using username: admin@devtest.com and password:secret and access the admin dashboard
 
